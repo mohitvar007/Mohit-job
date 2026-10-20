@@ -225,7 +225,10 @@ def tailor_ai(job):
 # ------------------------------------------------------------------ routes
 @app.get("/")
 def index():
-    return send_from_directory("static", "index.html")
+    for d in (BASE / "static", BASE):
+        if (d / "index.html").exists():
+            return send_from_directory(str(d), "index.html")
+    return "index.html is missing from the repo. Upload it next to app.py.", 500
 
 
 @app.get("/api/jobs")
