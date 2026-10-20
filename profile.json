@@ -1,0 +1,35 @@
+{
+  "first_name": "Mohit",
+  "last_name": "Varshney",
+  "email": "varshneymohit50@gmail.com",
+  "phone": "+91 8057573847",
+  "linkedin": "https://linkedin.com/in/mohit-varshney-23738821b",
+  "location": "Greater Noida, India",
+  "current_company": "Coforge Ltd.",
+  "facts": [
+    "Software Engineer at Coforge Ltd, Greater Noida, June 2024 to present (2+ years).",
+    "Enterprise hotel booking platform: availability, booking, inventory management, supplier integrations.",
+    "C#, ASP.NET Core, ASP.NET MVC, Entity Framework Core, Dapper, SQL Server, stored procedures, REST APIs, JSON, XML, dependency injection, SOLID, Agile Scrum.",
+    "Azure Service Bus and RabbitMQ; took part in the RabbitMQ to Azure Service Bus migration by validating publishers, consumers and end-to-end processing.",
+    "Built Generic Criteria, Offer Codes, Inventory Management and Virtual Card Audit modules.",
+    "Optimised SQL Server queries and stored procedures.",
+    "Production deployments with TeamCity and Octopus Deploy; Azure App Service monitoring and support; Azure Repos and Git.",
+    "Resolved production issues via SQL analysis, XML validation, API debugging and log investigation.",
+    "B.Tech Computer Science, GLA University Mathura, 2020-2024.",
+    "Learning DevOps (Azure DevOps, AZ-400 track)."
+  ],
+  "search": {
+    "must_match": [".net", "dotnet", "asp.net", "c#", "devops", "azure"],
+    "title_hints": [".net", "dotnet", "c#", "backend", "back end", "back-end", "full stack", "fullstack", "devops", "sre", "cloud", "azure", "software engineer"],
+    "skills": {"asp.net core": 3, ".net core": 3, "c#": 3, "entity framework": 2, "dapper": 2, "sql server": 2, "rest api": 2,
+               "service bus": 3, "rabbitmq": 2, "azure": 2, "teamcity": 2, "octopus": 2, "ci/cd": 2, "docker": 1,
+               "kubernetes": 1, "terraform": 1, "azure devops": 3, "git": 1},
+    "exclude_title": ["senior", "sr.", "sr ", "lead", "principal", "staff", "architect", "head of", "manager", "director",
+                      "vp ", "intern", "trainee", "java ", "python developer", "php", "ruby", "golang", "react native",
+                      "ios", "android", "data scientist", "qa ", "tester", "sales"],
+    "onsite_cities": ["noida", "gurgaon", "gurugram", "greater noida", "delhi ncr", "ncr"],
+    "remote_ok": ["worldwide", "anywhere", "global", "india", "apac", "asia", "remote"],
+    "remote_blocklist": ["usa only", "us only", "united states", "canada only", "uk only", "europe only", "eu only", "emea", "latam only"],
+    "min_score": 4
+  }
+}

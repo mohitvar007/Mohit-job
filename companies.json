@@ -1,0 +1,4 @@
+{
+  "greenhouse": ["razorpay", "groww", "postman", "browserstack", "freshworks", "druva", "thoughtspot", "zeta", "airbnb", "stripe", "gitlab", "elastic", "datadog", "cloudflare"],
+  "lever": ["cred", "meesho", "paytm", "dream11", "upgrad", "slice", "swiggy", "zeta"]
+}

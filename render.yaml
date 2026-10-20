@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: mohits-job-portal
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --timeout 120 --workers 1 --threads 4
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
